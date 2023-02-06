@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
         <div className='logo'>
-            <Link to="/" style={{ textDecoration: 'none' }}>
+            <Link to="/">
                 <h3>ポートフォリオ</h3>
             </Link>
         </div>
@@ -18,7 +18,7 @@ const Header = () => {
                     <Link to="/blog">ブログ</Link>
                 </li>
                 <li>
-                    <a href="#">SNS</a>
+                    <Link to="/sns">SNS</Link>
                 </li>
             </ul>
         </nav>
