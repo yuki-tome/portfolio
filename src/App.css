@@ -17,7 +17,7 @@ header {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  background: black;
+  background: rgb(67, 111, 241);
   color: white;
   height: 90px;
   position: fixed;
@@ -28,6 +28,10 @@ header .logo h3 {
   margin: 0;
   padding: 0;
   color: white;
+}
+
+.logo a {
+  text-decoration: none;
 }
 
 nav ul {
@@ -49,13 +53,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #48b4af;
+  color: black;
 }
-nav ul li a:hover {
-  color: #48b4af;
-}
+
 .logo h3:hover {
-  color: #48b4af;
+  color: black;
 }
 
 .container {
@@ -85,6 +87,10 @@ img {
   margin-top: 80px;
   margin-bottom: 60px;
 }
+.service a{
+  text-decoration: none;
+}
+
 
 #skill img {
   object-fit: cover;
@@ -95,4 +101,14 @@ img {
 
 #skill button {
   margin-bottom: 100px;
+}
+
+.blog {
+  height: 100vh;
+  padding: 120px;
+}
+
+.sns {
+  height: 100vh;
+  padding: 120px;
 }
