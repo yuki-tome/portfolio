@@ -4,6 +4,7 @@ import jsImage from "../Images/js.png";
 import pythonImage from "../Images/python.png";
 import profileImage from "../Images/profile.jpg";
 import { Link } from 'react-router-dom'
+import SkillItem from './SkillItem';
 
 const HomePage = () => {
   return (
@@ -69,21 +70,9 @@ const HomePage = () => {
         <div class="text-center">
           <h1 class="title">スキル</h1>
           <div class="row text-center">
-            <div class="col-md-4 services">
-              <img src={reactImage} alt="react"/>
-              <h4>React</h4>
-              <p>Reactがつかえます</p>
-            </div>
-            <div class="col-md-4 services">
-              <img src={jsImage} alt="JavaScript"/>
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
-            </div>
-            <div class="col-md-4 services">
-              <img src={pythonImage} alt="python"/>
-              <h4>Python</h4>
-              <p>Pythonがつかえます</p>
-            </div>
+            <SkillItem img={reactImage} title={"React"} text={"Reactがつかえます"}/>
+            <SkillItem img={jsImage} title={"HTML/CSS"} text={"HTML/CSSがつかえます"}/>
+            <SkillItem img={pythonImage} title={"Python"} text={"Pythonがつかえます"}/>
           </div>
           <Link to="/skill-list">
             <button type="button" class="btn btn-primary">
