@@ -2,7 +2,7 @@ import React from 'react'
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import pythonImage from "../Images/python.png";
-import profileImage from "../Images/profile.jpg";
+import profileImage from "../Images/profile_low.jpg";
 import { Link } from 'react-router-dom'
 import SkillItem from './SkillItem';
 
