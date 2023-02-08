@@ -109,6 +109,15 @@ img {
 }
 
 .sns {
-  height: 100vh;
   padding: 120px;
+}
+.iconlist a{
+  color:inherit;
+  text-decoration: none;
+}
+.iconlist a:hover {
+  color: gray;
+}
+.icon {
+  margin: 120px;
 }

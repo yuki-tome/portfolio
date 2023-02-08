@@ -1,8 +1,13 @@
 import React from 'react'
+import {MarkGithubIcon} from '@primer/octicons-react'
 
 const SnsPage = () => {
   return (
-    <div className='sns'>SnsPage</div>
+    <div className='iconlist'>
+      <a href='https://github.com/yuki-tome'>
+        <MarkGithubIcon className='icon' size={100} />
+      </a>
+    </div>
   )
 }
 
