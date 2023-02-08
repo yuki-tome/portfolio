@@ -1,3 +1,4 @@
+import React from 'react' 
 import './App.css';
 import BlogPage from './componets/BlogPage';
 import Header from './componets/Header';
