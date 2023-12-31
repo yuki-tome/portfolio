@@ -14,11 +14,11 @@ const Header = () => {
                 <li>
                     <Link to="/">ホーム</Link>
                 </li>
-                <li>
+{/*                 <li>
                     <Link to="/blog">ブログ</Link>
-                </li>
+                </li> */}
                 <li>
-                    <Link to="/sns">SNS</Link>
+                    <Link to="https://github.com/yuki-tome">SNS</Link>
                 </li>
             </ul>
         </nav>
