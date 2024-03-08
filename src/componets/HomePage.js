@@ -56,7 +56,7 @@ const HomePage = () => {
                           チームでDjangoとBootstrapを用いて開発を行い、最後に発表を行いました。私はチームのリーダーを務めました。
                         </p>
                       </li>
-                      <li class="event" data-date="8:30 - 9:30pm">
+                      <li class="event" data-date="2020年10月-2021年1月">
                         <h3>介護ハッカソン</h3>
                         <p>チームで開発を行い、最後に発表を行いました。</p>
                       </li>
